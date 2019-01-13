@@ -2,9 +2,9 @@
 
 -----------
 安装脚本
-
-wget --no-check-certificate https://github.com/NTPlay4/cloud/blob/master/install-game-server.sh -O ./install-game-server.sh
+wget --no-check-certificate https://github.com/ntplay4/cloud/raw/master/install-game-server.sh -O ./install-game-server.sh
 chmod 500 ./install-game-server.sh
+
 ./install-game-server.sh install
 -----------
 UnInstall
