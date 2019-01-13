@@ -1,24 +1,26 @@
 最新0.3.3版本的game-server
-
+-----------
 安装脚本
 
 wget --no-check-certificate https://github.com/NTPlay4/cloud/blob/master/install-game-server.sh -O ./install-game-server.sh
 chmod 500 ./install-game-server.sh
 ./install-game-server.sh install
-
+-----------
 UnInstall
 
 ./install-game-server.sh uninstall
 
+-----------
 Update
 
 ./install-game-server.sh update
 
+-----------
 服务器管理
 
 Usage: /etc/init.d/game-server {start|stop|restart|status}
 
-
+-----------
 多用户配置文件范例
 按照下面格式修改默认的/usr/local/game-server/config.json文件：
 
